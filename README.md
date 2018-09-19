@@ -1,2 +1,2 @@
 # prototool
-Dockerfile for Uber Prototool
+Dockerfile for Uber [prototool](https://github.com/uber/prototool).
