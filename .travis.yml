@@ -1,0 +1,12 @@
+sudo: required
+services:
+- docker
+script:
+  - docker build -t lockblox/prototool .
+branches:
+  only:
+  - master
+notification:
+  email: true
+os:
+- linux
